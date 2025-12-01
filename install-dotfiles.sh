@@ -27,7 +27,7 @@ if [ $? -eq 0 ]; then
   echo "removing old configs"
   rm -rf ~/.config/nvim ~/.config/starship.toml ~/.local/share/nvim/ ~/.cache/nvim/
   cd "$REPO_NAME"
-  # stow zshrc
+  stow zshrc
   stow tmux
   stow nvim
 else
