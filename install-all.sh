@@ -5,6 +5,6 @@
 ./install-tmux.sh
 ./install-stow.sh
 ./install-dotfiles.sh
-# ./install-hyprland-overrides.sh
+./install-hyprland-overrides.sh
 
 ./set-shell.sh
